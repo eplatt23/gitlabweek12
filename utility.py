@@ -23,3 +23,13 @@ def UpdateString(first, second, count):
         else:
             empty_list.append(the_list[i])
     print('OUTPUT', ''.join(empty_list))
+
+def FindWordCount(the_list, the_string):
+    cnt = 0
+    the_list = (''.join(the_list))
+    the_list = the_list.split()
+    print(the_list)
+    for x in the_list:
+        if x == the_string:
+            cnt += 1
+    return cnt
