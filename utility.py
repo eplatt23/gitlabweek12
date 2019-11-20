@@ -33,3 +33,11 @@ def FindWordCount(the_list, the_string):
         if x == the_string:
             cnt += 1
     return cnt
+
+def ScoreFinder(one, two, the_string):
+    if the_string in one:
+        p = one.index(the_list)
+        s = two[p]
+        print('OUTPUT', the_string,'got a score of', s)
+    else:
+        print("OUTPUT Player not found")
