@@ -41,3 +41,8 @@ def ScoreFinder(one, two, the_string):
         print('OUTPUT', the_string,'got a score of', s)
     else:
         print("OUTPUT Player not found")
+
+def Union(one, two):
+    the_list = one + two
+    the_list = set(the_list)
+    return the_list
