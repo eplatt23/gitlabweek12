@@ -53,3 +53,10 @@ def Intersection(one, two):
         if x in two:
             the_list.append(x)
     return the_list
+
+def NotIn(one, two):
+    the_list = []
+    for x in one:
+        if x not in two:
+            the_list.append(x)
+    return the_list
