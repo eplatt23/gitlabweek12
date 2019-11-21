@@ -46,3 +46,10 @@ def Union(one, two):
     the_list = one + two
     the_list = set(the_list)
     return the_list
+
+def Intersection(one, two):
+    the_list = []
+    for x in one:
+        if x in two:
+            the_list.append(x)
+    return the_list
